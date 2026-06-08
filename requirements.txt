@@ -1,0 +1,10 @@
+# Python dependencies used across the coursework notebooks
+# Notebooks were authored in Google Colab; google-colab is intentionally not listed
+# because it is provided by Colab and usually not installable/needed locally.
+
+huggingface_hub
+ipython
+matplotlib
+numpy
+pandas
+scikit-learn
