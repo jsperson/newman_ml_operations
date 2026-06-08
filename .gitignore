@@ -1,0 +1,25 @@
+# Python / notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local data and generated artifacts
+data/
+datasets/
+artifacts/
+models/
+outputs/
+*.csv
+*.parquet
+*.pkl
+*.joblib
+
+# OS/editor noise
+.DS_Store
+.vscode/
+.idea/
