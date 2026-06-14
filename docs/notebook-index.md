@@ -42,6 +42,20 @@ Covers:
 - Patch-scoped train/test evaluation.
 - Model comparison using accuracy, AUC, and Brier score.
 
+## Module 4 — Match Outcome Prediction
+
+### `module-04-match-outcome-prediction/assignment-4.1-match-outcome-prediction.ipynb`
+
+Primary role: assignment notebook.
+
+Covers:
+- Fixed patch-aware temporal train/test split for the feature-engineered match dataset.
+- Feature selection using team-difference columns, target correlation, and redundancy checks.
+- Missing-value handling for blue-minus-red difference features, including missingness indicators.
+- Logistic regression with `StandardScaler` in a pipeline.
+- Test-set AUC, Brier score, and accuracy compared with the reference baseline.
+- Reflection on feature signal, pre-game prediction limits, split validity, and organizational value.
+
 ## Maintenance checklist
 
 When adding a new notebook:

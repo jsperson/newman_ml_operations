@@ -14,6 +14,8 @@ This repo is organized by course module so notebooks, assignment artifacts, and 
 │   └── week-02-eda-win-rates-leakage.ipynb
 ├── module-03-temporal-feature-engineering/
 │   └── assignment-3a-champion-synergies-counters.ipynb
+├── module-04-match-outcome-prediction/
+│   └── assignment-4.1-match-outcome-prediction.ipynb
 ├── docs/
 │   └── notebook-index.md
 ├── requirements.txt
@@ -28,6 +30,7 @@ This repo is organized by course module so notebooks, assignment artifacts, and 
 | 1 | 1.2 Wide to Thin Reshaping | `module-01-mlops-business-case/1.2_wide_to_thin_reshaping.ipynb` | Reshapes League of Legends match data from one row per game into one row per player-match, constructs player-level `win`, validates the reshape, and documents the thin-table data dictionary. |
 | 2 | EDA, win rates, and leakage | `module-02-eda-win-rates-leakage/week-02-eda-win-rates-leakage.ipynb` | Explores baseline blue-side win rate, champion win-rate features, game-level aggregation, and early leakage issues. |
 | 3 | Assignment 3A — Champion Synergies and Counters | `module-03-temporal-feature-engineering/assignment-3a-champion-synergies-counters.ipynb` | Builds temporal, leakage-aware champion synergy/counter features and evaluates models with accuracy, AUC, and Brier score. |
+| 4 | 4.1 Match Outcome Prediction | `module-04-match-outcome-prediction/assignment-4.1-match-outcome-prediction.ipynb` | Uses the fixed temporal split, selects a compact set of team-difference features, imputes missing values, scales logistic-regression inputs, and reports AUC, Brier score, and accuracy against the reference baseline. |
 
 ## Local setup
 
