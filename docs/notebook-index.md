@@ -1,6 +1,6 @@
-# Notebook Index
+# Coursework Artifact Index
 
-This file tracks the class notebooks in repository order. It is meant to answer: “Where did I put that assignment?” without archaeology. Revolutionary technology.
+This file tracks the class notebooks and written assignments in repository order. It is meant to answer: “Where did I put that assignment?” without archaeology. Revolutionary technology.
 
 ## Module 1 — MLOps Business Case
 
@@ -56,9 +56,19 @@ Covers:
 - Test-set AUC, Brier score, and accuracy compared with the reference baseline.
 - Reflection on feature signal, pre-game prediction limits, split validity, and organizational value.
 
+### `module-04-match-outcome-prediction/assignment-4.2-choice-of-split-strategy.docx`
+
+Primary role: written assignment.
+
+Covers:
+- Organizational comparison of split strategies for a sports-betting operator and a consumer coaching app.
+- Patch-boundary walk-forward validation risks for betting/pricing use cases.
+- Player-level chronological validation for personalized champion-switch recommendations.
+- Recommendation-level metrics for Team B, including predicted uplift, confidence, and calibration.
+
 ## Maintenance checklist
 
-When adding a new notebook:
+When adding a new artifact:
 
 1. Put it in the matching `module-XX-topic/` directory.
 2. Use a descriptive filename instead of the Colab upload timestamp.

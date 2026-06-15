@@ -15,7 +15,8 @@ This repo is organized by course module so notebooks, assignment artifacts, and 
 ├── module-03-temporal-feature-engineering/
 │   └── assignment-3a-champion-synergies-counters.ipynb
 ├── module-04-match-outcome-prediction/
-│   └── assignment-4.1-match-outcome-prediction.ipynb
+│   ├── assignment-4.1-match-outcome-prediction.ipynb
+│   └── assignment-4.2-choice-of-split-strategy.docx
 ├── docs/
 │   └── notebook-index.md
 ├── requirements.txt
@@ -31,6 +32,7 @@ This repo is organized by course module so notebooks, assignment artifacts, and 
 | 2 | EDA, win rates, and leakage | `module-02-eda-win-rates-leakage/week-02-eda-win-rates-leakage.ipynb` | Explores baseline blue-side win rate, champion win-rate features, game-level aggregation, and early leakage issues. |
 | 3 | Assignment 3A — Champion Synergies and Counters | `module-03-temporal-feature-engineering/assignment-3a-champion-synergies-counters.ipynb` | Builds temporal, leakage-aware champion synergy/counter features and evaluates models with accuracy, AUC, and Brier score. |
 | 4 | 4.1 Match Outcome Prediction | `module-04-match-outcome-prediction/assignment-4.1-match-outcome-prediction.ipynb` | Uses the fixed temporal split, selects a compact set of team-difference features, imputes missing values, scales logistic-regression inputs, and reports AUC, Brier score, and accuracy against the reference baseline. |
+| 4 | 4.2 Choice of Split Strategy | `module-04-match-outcome-prediction/assignment-4.2-choice-of-split-strategy.docx` | Written organizational analysis comparing split strategies for a betting operator versus a consumer coaching app, including recommendation-level metrics for champion-switch advice. |
 
 ## Local setup
 
@@ -51,6 +53,6 @@ Some notebooks use Colab-only imports such as `google.colab.drive`. When running
 - Keep raw data, generated outputs, model artifacts, and local virtual environments out of git.
 - If a notebook depends on a large dataset, document the source and loading step in the notebook rather than committing the data file.
 
-## Notebook index
+## Artifact index
 
-See `docs/notebook-index.md` for a quick inventory of each notebook and its current role in the course sequence.
+See `docs/notebook-index.md` for a quick inventory of each tracked notebook or written assignment and its current role in the course sequence.
