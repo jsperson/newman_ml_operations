@@ -4,12 +4,14 @@ Coursework repository for Newman University's Machine Learning Operations course
 
 This repo is organized by course module so notebooks, assignment artifacts, and notes stay findable as the semester builds up. Most notebooks were authored in Google Colab and may contain Google Drive-specific paths.
 
+Artifacts use boring, descriptive filenames in the form `assignment-<number>-<short-topic>.<ext>` when they map directly to a Canvas submission. Lecture or exploratory notebooks keep a `week-XX-<topic>.ipynb` prefix.
+
 ## Repository layout
 
 ```text
 .
 ├── module-01-mlops-business-case/
-│   └── 1.2_wide_to_thin_reshaping.ipynb
+│   └── assignment-1.2-wide-to-thin-reshaping.ipynb
 ├── module-02-eda-win-rates-leakage/
 │   └── week-02-eda-win-rates-leakage.ipynb
 ├── module-03-temporal-feature-engineering/
@@ -18,7 +20,7 @@ This repo is organized by course module so notebooks, assignment artifacts, and 
 │   ├── assignment-4.1-match-outcome-prediction.ipynb
 │   └── assignment-4.2-choice-of-split-strategy.docx
 ├── docs/
-│   └── notebook-index.md
+│   └── artifact-index.md
 ├── requirements.txt
 └── README.md
 ```
@@ -28,7 +30,7 @@ This repo is organized by course module so notebooks, assignment artifacts, and 
 | Module | Canvas item / topic | Repository file | Purpose |
 |---|---|---|---|
 | 1 | 1.1 Organizational Framing | Not currently tracked as a separate file | Written framing assignment for the business use case and deployment context. |
-| 1 | 1.2 Wide to Thin Reshaping | `module-01-mlops-business-case/1.2_wide_to_thin_reshaping.ipynb` | Reshapes League of Legends match data from one row per game into one row per player-match, constructs player-level `win`, validates the reshape, and documents the thin-table data dictionary. |
+| 1 | 1.2 Wide to Thin Reshaping | `module-01-mlops-business-case/assignment-1.2-wide-to-thin-reshaping.ipynb` | Reshapes League of Legends match data from one row per game into one row per player-match, constructs player-level `win`, validates the reshape, and documents the thin-table data dictionary. |
 | 2 | EDA, win rates, and leakage | `module-02-eda-win-rates-leakage/week-02-eda-win-rates-leakage.ipynb` | Explores baseline blue-side win rate, champion win-rate features, game-level aggregation, and early leakage issues. |
 | 3 | Assignment 3A — Champion Synergies and Counters | `module-03-temporal-feature-engineering/assignment-3a-champion-synergies-counters.ipynb` | Builds temporal, leakage-aware champion synergy/counter features and evaluates models with accuracy, AUC, and Brier score. |
 | 4 | 4.1 Match Outcome Prediction | `module-04-match-outcome-prediction/assignment-4.1-match-outcome-prediction.ipynb` | Uses the fixed temporal split, selects a compact set of team-difference features, imputes missing values, scales logistic-regression inputs, and reports AUC, Brier score, and accuracy against the reference baseline. |
@@ -55,4 +57,4 @@ Some notebooks use Colab-only imports such as `google.colab.drive`. When running
 
 ## Artifact index
 
-See `docs/notebook-index.md` for a quick inventory of each tracked notebook or written assignment and its current role in the course sequence.
+See `docs/artifact-index.md` for a quick inventory of each tracked notebook or written assignment and its current role in the course sequence.

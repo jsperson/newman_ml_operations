@@ -4,7 +4,7 @@ This file tracks the class notebooks and written assignments in repository order
 
 ## Module 1 — MLOps Business Case
 
-### `module-01-mlops-business-case/1.2_wide_to_thin_reshaping.ipynb`
+### `module-01-mlops-business-case/assignment-1.2-wide-to-thin-reshaping.ipynb`
 
 Primary role: assignment notebook.
 
