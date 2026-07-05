@@ -66,6 +66,32 @@ Covers:
 - Player-level chronological validation for personalized champion-switch recommendations.
 - Recommendation-level metrics for Team B, including predicted uplift, confidence, and calibration.
 
+## Module 6 — Backfill Orchestration
+
+### `module-06-backfill-orchestration/assignment-6.1-purpose-of-backfill.docx`
+
+Primary role: written assignment.
+
+Covers:
+- Contents of dated backfilled run folders, including executed notebooks, parquet outputs, feature importance, metadata, and MLflow run IDs.
+- Why `RUN_DATE` backfills are event-time simulations using the current source data, not guaranteed historical snapshots.
+- Examples of questions where current-source historical data would and would not change the conclusion.
+- Run-metadata evidence for model-performance plateau, train/test stability, and execution-time cost as data volume grows.
+- Infrastructure recommendation for retaining enough operational training data to stay past the performance plateau with a safety buffer.
+
+## Module 7 — Choosing the Right Metric
+
+### `module-07-choosing-right-metric/assignment-7.1-choosing-right-metric.ipynb`
+
+Primary role: assignment notebook.
+
+Covers:
+- Comparison of AUC, Brier score, and accuracy for three candidate match-outcome probability models.
+- Decimal-odds quote construction with a house margin and per-game settlement/profit calculation.
+- Identification of the most profitable model and explanation of why Brier/calibration matters for odds-setting.
+- Error-case analysis for games where miscalibrated probabilities create large payouts.
+- Organizational deployment, patch-maintenance, monitoring, and ROI discussion for a betting-house use case.
+
 ## Maintenance checklist
 
 When adding a new artifact:
