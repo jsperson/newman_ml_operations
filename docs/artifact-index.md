@@ -66,6 +66,19 @@ Covers:
 - Player-level chronological validation for personalized champion-switch recommendations.
 - Recommendation-level metrics for Team B, including predicted uplift, confidence, and calibration.
 
+## Module 5 — Filling the Gaps
+
+### `module-05-filling-the-gaps/assignment-5.1-filling-the-gaps.docx`
+
+Primary role: written assignment.
+
+Covers:
+- Comparison of missing-value fill strategies across Bayesian win-rate, champion mastery, tier, and league-points feature groups.
+- Interpretation of neutral defaults versus context-aware fallback values.
+- Discussion of tier-conditioned fills and row-level fallback behavior for sparse player history.
+- Maintainability tradeoffs between simple global fills and more complex model-aware imputation logic.
+- Recommendation framing for which fill strategy is more appropriate for production use.
+
 ## Module 6 — Backfill Orchestration
 
 ### `module-06-backfill-orchestration/assignment-6.1-purpose-of-backfill.docx`
