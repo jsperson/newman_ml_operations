@@ -18,7 +18,8 @@ Artifacts use boring, descriptive filenames in the form `assignment-<number>-<sh
 │   └── assignment-3a-champion-synergies-counters.ipynb
 ├── module-04-match-outcome-prediction/
 │   ├── assignment-4.1-match-outcome-prediction.ipynb
-│   └── assignment-4.2-choice-of-split-strategy.docx
+│   ├── assignment-4.2-choice-of-split-strategy.docx
+│   └── match-outcome-leaderboard-xgboost.ipynb
 ├── module-05-filling-the-gaps/
 │   └── assignment-5.1-filling-the-gaps.docx
 ├── module-06-backfill-orchestration/
@@ -41,6 +42,7 @@ Artifacts use boring, descriptive filenames in the form `assignment-<number>-<sh
 | 3 | Assignment 3A — Champion Synergies and Counters | `module-03-temporal-feature-engineering/assignment-3a-champion-synergies-counters.ipynb` | Builds temporal, leakage-aware champion synergy/counter features and evaluates models with accuracy, AUC, and Brier score. |
 | 4 | 4.1 Match Outcome Prediction | `module-04-match-outcome-prediction/assignment-4.1-match-outcome-prediction.ipynb` | Uses the fixed temporal split, selects a compact set of team-difference features, imputes missing values, scales logistic-regression inputs, and reports AUC, Brier score, and accuracy against the reference baseline. |
 | 4 | 4.2 Choice of Split Strategy | `module-04-match-outcome-prediction/assignment-4.2-choice-of-split-strategy.docx` | Written organizational analysis comparing split strategies for a betting operator versus a consumer coaching app, including recommendation-level metrics for champion-switch advice. |
+| 4 | Semester Leaderboard: Match Outcome Prediction | `module-04-match-outcome-prediction/match-outcome-leaderboard-xgboost.ipynb` | Builds a current-data XGBoost leaderboard submission with leakage-safe expanding prior win-rate features, temporal validation tuning, required train/test metrics, and generalization-gap checks. |
 | 5 | 5.1 Filling the Gaps | `module-05-filling-the-gaps/assignment-5.1-filling-the-gaps.docx` | Written reflection comparing missing-value fill strategies, including Bayesian win rates, mastery values, tier fallback behavior, and the maintainability tradeoffs of simple versus context-aware fills. |
 | 6 | 6.1 Purpose of Backfill | `module-06-backfill-orchestration/assignment-6.1-purpose-of-backfill.docx` | Written reflection explaining what dated backfilled run folders contain, why event-time backfills are not perfect historical replay, and how run metadata supports a practical data-retention recommendation. |
 | 7 | 7.1 Choosing the Right Metric | `module-07-choosing-right-metric/assignment-7.1-choosing-right-metric.ipynb` | Compares AUC, Brier score, accuracy, and simulated betting-house profit for three probability models, then connects metric choice to deployment, maintenance, and ROI decisions. |

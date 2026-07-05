@@ -56,6 +56,17 @@ Covers:
 - Test-set AUC, Brier score, and accuracy compared with the reference baseline.
 - Reflection on feature signal, pre-game prediction limits, split validity, and organizational value.
 
+### `module-04-match-outcome-prediction/match-outcome-leaderboard-xgboost.ipynb`
+
+Primary role: leaderboard submission notebook.
+
+Covers:
+- Current Hugging Face course data endpoint through the July 2026 update window.
+- Required patch-wise temporal split and Canvas leaderboard metric table.
+- XGBoost model with tuned tree parameters selected on an internal temporal validation split.
+- Leakage-safe expanding prior win-rate/count features for champion, champion-position, player, and player-champion histories.
+- Eligibility checks for AUC, accuracy, and Brier-score generalization gaps.
+
 ### `module-04-match-outcome-prediction/assignment-4.2-choice-of-split-strategy.docx`
 
 Primary role: written assignment.
